@@ -1,0 +1,19 @@
+name: notebook_env
+channels:
+  - conda-forge
+  - r
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - seaborn
+  - jupyterlab
+  - r-base
+  - r-ggplot2 
+  - r-irkernel 
+  - r-tidyverse
+  - r-gridExtra
+  - r-reshape2
+  - r-pheatmap
